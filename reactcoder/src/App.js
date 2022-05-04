@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBarBtradicional from "./Components/NavBar/NavBarBtradicional";
 
 function App() {
   return (
     <div className="App">
+      <NavBarBtradicional />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
