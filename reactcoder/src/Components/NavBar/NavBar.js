@@ -1,4 +1,6 @@
-const NavBarBtradicional = () => {
+import CartWidget from "./CartWidget/CartWidget";
+
+const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -73,8 +75,9 @@ const NavBarBtradicional = () => {
           </ul>
         </div>
       </div>
+      <CartWidget />
     </nav>
   );
 };
 
-export default NavBarBtradicional;
+export default NavBar;
